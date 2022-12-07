@@ -1,0 +1,366 @@
+.indice {
+	
+	width: 170px;
+	height: 70px;
+	background:;
+	color:;
+	font-size:;
+	text-align:;
+	float:;
+	line-height:;
+	font-family:;
+
+}
+
+h1 {
+	
+	width: 700px;
+	height: 125px;
+	background:;
+	color: white;
+	font-size:100;
+	text-align:center;
+	float:;
+	line-height:;
+	font-family:;
+	position: absolute;
+	top:270px;
+	bottom:;
+	right:;
+	left:;
+}
+
+
+.dragoon {
+	
+	position: absolute;
+	top:300px;
+	bottom:;
+	right:;
+	left:560px;
+	
+}
+
+.mako1 {
+	
+	width:750px;
+	height:250px;
+	position: absolute;
+	top:350px;
+	bottom:;
+	right:;
+	left: 52px;
+	
+}
+
+.degradado {
+	
+	width:750px;
+	height:50px;
+	position: absolute;
+	top:303px;
+	bottom:;
+	right:;
+	left: 52px;
+	
+}
+
+.index {
+	
+	width:637px;
+	height:250px;
+	position: absolute;
+	top:303px;
+	bottom:;
+	right:;
+	left: 800px;
+	
+}
+
+.entregas {
+	
+	
+	width:637px;
+	height:250px;
+	position: absolute;
+	top:800px;
+	bottom:;
+	right:;
+	left:;
+	left:;
+	
+}
+
+b {
+	
+	font:310% Gotham;
+	color: white;
+	
+}
+
+.banner {
+	
+	width:1385px;
+	height:295px;
+	position: absolute;
+	top: 10px;
+	bottom:;
+	right:;
+	left: 52px;
+	
+}
+
+h2 {
+	
+	font-size:55;
+	color: white;
+	position: absolute;
+	top: 570px;
+	bottom:;
+	right:;
+	left: 100px;
+	
+}
+
+.pp {
+	
+	text-align: justify;
+	width: 610px;
+	height:;
+	color:white;
+	font-size:;
+	position: absolute;
+	top: 700px;
+	bottom:;
+	right:;
+	left: 100px;
+	
+}
+
+.ff {
+	
+	width:450;
+	height:358;
+	position: absolute;
+	top: 600px;
+	bottom:;
+	right:;
+	left: 750px
+	
+}
+
+.ps {
+	
+	text-align: justify;
+	width: 610px;
+	height:;
+	color:white;
+	font-size:;
+	position: absolute;
+	top:1000px;
+	bottom:;
+	right:;
+	left: 750px;
+	
+}
+
+.pt {
+	
+	text-align: justify;
+	width: 610px;
+	height:;
+	color:white;
+	font-size:;
+	position: absolute;
+	top:1300px;
+	bottom:;
+	right:;
+	left: 100px;
+	
+}
+
+.combat {
+	
+	width: 600px;
+	height: 337px;
+	position: absolute;
+	top:950px;
+	bottom:;
+	right:;
+	left: 100px;
+	
+}
+
+.chrono {
+	
+	width: 400px;
+	height: 312x;
+	position: absolute;
+	top:-100px;
+	bottom:;
+	right:;
+	left: 750px;
+	
+}
+
+.hora{
+	
+	color: white;
+	position: absolute;
+	top:900px;
+	bottom:;
+	right:;
+	left: 0px;
+	
+}
+
+.trail {
+	
+	color:white;
+	width:1385px;
+	height:;
+	position: absolute;
+	top: 750px;
+	bottom:;
+	right:;
+	left:52px;
+	
+}
+
+.cabeza {
+	
+	font-size:35;
+	
+}
+
+.cuerpo {
+	
+	font-size:15;
+	
+}
+
+.formulario {
+	
+	color: white;
+	height:;
+	width:;
+	position: absolute;
+	top:730px;
+	bottom:;
+	right:;
+	left: 200px;
+	
+}
+
+.location {
+	
+	font-size:55;
+	color: white;
+	position: absolute;
+	top: 570px;
+	bottom:;
+	right:;
+	left: 800px;
+}
+
+.mapa {
+
+	position: absolute;
+	top:730px;
+	bottom:;
+	right:;
+	left:750px;
+}
+
+.pienombre{
+	
+	text-align:justify;
+	font-size: 35;
+	color: white;
+	position: absolute;
+	top:1550px;
+	bottom:;
+	right:;
+	left:160px;
+}
+
+.pietitulo{
+	
+	text-align:justify;
+	font-size: 35;
+	color: white;
+	position: absolute;
+	top:1595px;
+	bottom:;
+	right:;
+	left:760px;
+}
+.pienombreE{
+	
+	text-align:justify;
+	font-size: 35;
+	color: white;
+	position: absolute;
+	top:6150px;
+	bottom:;
+	right:;
+	left:160px;
+}
+
+.pietituloE{
+	
+	text-align:justify;
+	font-size: 35;
+	color: white;
+	position: absolute;
+	top:6195px;
+	bottom:;
+	right:;
+	left:760px;
+}
+.pienombreT{
+	
+	text-align:justify;
+	font-size: 35;
+	color: white;
+	position: absolute;
+	top:1350px;
+	bottom:;
+	right:;
+	left:160px;
+}
+
+.pietituloT{
+	
+	text-align:justify;
+	font-size: 35;
+	color: white;
+	position: absolute;
+	top:1395px;
+	bottom:;
+	right:;
+	left:760px;
+}
+.pienombreC{
+	
+	text-align:justify;
+	font-size: 35;
+	color: white;
+	position: absolute;
+	top:1325px;
+	bottom:;
+	right:;
+	left:160px;
+}
+
+.pietituloC{
+	
+	text-align:justify;
+	font-size: 35;
+	color: white;
+	position: absolute;
+	top:1370px;
+	bottom:;
+	right:;
+	left:760px;
+}

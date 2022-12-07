@@ -1,0 +1,132 @@
+<html>
+
+<head>
+
+	<title>Final Fantasy</title>
+	<link href="FinalCss.css" rel="stylesheet" type="text/css">
+	<link rel="shortcut icon" href="https://art.pixilart.com/3899426474f0c56.png">
+	<Script Language="JavaScript">
+		function Hora() {
+		var hora = new Date()
+		var hrs = hora.getHours();
+		var min = hora.getMinutes();
+		var hoy = new Date();
+		var m = new Array();
+		var d = new Array()
+		var an= hoy.getYear();
+		m[0]="Enero";  m[1]="Febrero";  m[2]="Marzo";
+		m[3]="Abril";   m[4]="Mayo";  m[5]="Junio";
+		m[6]="Julio";	m[7]="Agosto";   m[8]="Septiembre";
+		m[9]="Octubre";   m[10]="Noviembre"; m[11]="Diciembre";
+		
+		if (min<10){
+		document.write("Son las "+hrs+":0"+min+" (");
+		document.write(hoy.getDate());
+		document.write(" de ");
+		document.write(m[hoy.getMonth()]);
+		document.write(")");
+		}
+		
+		else{
+		document.write("Son las "+hrs+":"+min+" (");
+		document.write(hoy.getDate());
+		document.write(" de ");
+		document.write(m[hoy.getMonth()]);
+		document.write(")");
+		}
+		
+		}
+	</Script>
+	
+</head>
+
+<body background="Negro.jpg" style="background-repeat: repeat; background-position: down, center; background-size: cover">
+	
+	<img class="degradado" src="Degradado.jpg">
+	
+	<img class="banner" src="Banner.jpg" height="295" width="1385">
+			
+	<img class="mako1" src="Mako.jpg" height="" width="">
+	
+	<h1>Final Fantasy</h1>
+	
+	<table class="index" border="3">
+		<tr>
+			<td width="50%" bgcolor="#3BB68E" valign="middle" align="center"><a href="EjercicioFinal.html"><b>Inicio</b></a></td>
+			<td bgcolor="#3BB68E" valign="middle" align="center"><a href="FinalEntregas.html"><b>Entregas</b></a></td>
+		</tr>
+		<tr>
+			<td bgcolor="#3BB68E" valign="middle" align="center"><a href="FinalTrailer.html"><b>Trailers</b></a></td>
+			<td bgcolor="#3BB68E" valign="middle" align="center"><a href="FinalContactos.html"><b>Contactos</b></a></td>
+		</tr>
+	</table>
+	<img class="dragoon" src="Dragoon.jpg" height="242" width="300">
+	
+	<h1>Final Fantasy</h1>
+	
+	<table class="index" border="3">
+		<tr>
+			<td width="50%" bgcolor="#3BB68E" valign="middle" align="center"><a href="EjercicioFinal.html"><b>Inicio</b></a></td>
+			<td bgcolor="#3BB68E" valign="middle" align="center"><a href="FinalEntregas.html"><b>Entregas</b></a></td>
+		</tr>
+		<tr>
+			<td bgcolor="#3BB68E" valign="middle" align="center"><a href="FinalTrailer.html"><b>Trailers</b></a></td>
+			<td bgcolor="#3BB68E" valign="middle" align="center"><a href="FinalContactos.html"><b>Contactos</b></a></td>
+		</tr>
+	</table>
+	<img class="dragoon" src="https://static.wikia.nocookie.net/finalfantasy/images/0/08/Dragoon_Artwork_XIV.png/revision/latest?cb=20170723180724" height="242" width="300">
+	
+	<h2>Contacta con nosotros</h2>
+	<h2 class="location">Sede de Square Enix</h2>
+	
+	<form class="formulario">
+	
+		<fieldset>
+			<legend> Comparte tu opinión sobre la página </legend>
+			<p> ¿Te ha resultado interesante? </p>
+			<input type="radio" name="casilla1">Mucho <br>
+			<input type="radio" name="casilla2">Está bien <br>
+			<input type="radio" name="casilla3">Nada <br>
+			<p> ¿Qué partes crees que son mejorables? </p>
+			<input type="checkbox" name="tamaño" value="pequeña">Inicio <br>
+			<input type="checkbox" name="tamaño" value="mediana">Entregas <br>
+			<input type="checkbox" name="tamaño" value="grande">Trailers <br><br>
+		
+			Otras apreciaciones. <br> <textarea name="especial" rows="12" cols="30"></textarea>
+		</fieldset>
+		
+		<fieldset>
+			<legend> ¿Cuál es tu Final Fantasy Favorito </legend>
+			<select>
+				<option> FFI </option>
+				<option> FFII </option>
+				<option> FFIII </option>
+				<option> FFIV </option>
+				<option> FFV </option>
+				<option> FFVI </option>
+				<option> FFVII </option>
+				<option> FFVIII </option>
+				<option> FFIX </option>
+				<option> FFX </option>
+				<option> FFXI </option>
+				<option> FFXII </option>
+				<option> FFXIII </option>
+				<option> FFXIV </option>
+				<option> FFXV </option>
+			</select>
+		</fieldset>
+		
+		<input type="button" value="Ok">
+	
+	</form>
+	
+	<div class="mapa"> <iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d12876.446911247273!2d139.7017722792808!3d35.69652771103865!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sSquare%20Enix!5e1!3m2!1ses!2ses!4v1670406737778!5m2!1ses!2ses" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
+	
+	<div class="pienombreC"><h3>Alberto Carmona González</h3></div>
+	<div class="pietituloC"><script>
+		Hora();
+	</script></div>
+	
+</body>
+
+</html>

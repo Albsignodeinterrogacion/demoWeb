@@ -1,0 +1,122 @@
+<html>
+
+<head>
+
+	<title>Final Fantasy</title>
+	<link href="FinalCss.css" rel="stylesheet" type="text/css">
+	<link rel="shortcut icon" href="https://art.pixilart.com/3899426474f0c56.png">
+	<Script Language="JavaScript">
+		function Hora() {
+		var hora = new Date()
+		var hrs = hora.getHours();
+		var min = hora.getMinutes();
+		var hoy = new Date();
+		var m = new Array();
+		var d = new Array()
+		var an= hoy.getYear();
+		m[0]="Enero";  m[1]="Febrero";  m[2]="Marzo";
+		m[3]="Abril";   m[4]="Mayo";  m[5]="Junio";
+		m[6]="Julio";	m[7]="Agosto";   m[8]="Septiembre";
+		m[9]="Octubre";   m[10]="Noviembre"; m[11]="Diciembre";
+		
+		if (min<10){
+		document.write("Son las "+hrs+":0"+min+" (");
+		document.write(hoy.getDate());
+		document.write(" de ");
+		document.write(m[hoy.getMonth()]);
+		document.write(")");
+		}
+		
+		else{
+		document.write("Son las "+hrs+":"+min+" (");
+		document.write(hoy.getDate());
+		document.write(" de ");
+		document.write(m[hoy.getMonth()]);
+		document.write(")");
+		}
+		
+		}
+	</Script>
+	
+</head>
+
+<body background="Negro.jpg" style="background-repeat: repeat; background-position: down, center; background-size: cover">
+	
+	<img class="degradado" src="Degradado.jpg">
+	
+	<img class="banner" src="Banner.jpg" height="295" width="1385">
+			
+	<img class="mako1" src="Mako.jpg" height="" width="">
+	
+	<h1>Final Fantasy</h1>
+	
+	<table class="index" border="3">
+		<tr>
+			<td width="50%" bgcolor="#3BB68E" valign="middle" align="center"><a href="EjercicioFinal.html"><b>Inicio</b></a></td>
+			<td bgcolor="#3BB68E" valign="middle" align="center"><a href="FinalEntregas.html"><b>Entregas</b></a></td>
+		</tr>
+		<tr>
+			<td bgcolor="#3BB68E" valign="middle" align="center"><a href="FinalTrailer.html"><b>Trailers</b></a></td>
+			<td bgcolor="#3BB68E" valign="middle" align="center"><a href="FinalContactos.html"><b>Contactos</b></a></td>
+		</tr>
+	</table>
+	<img class="dragoon" src="Dragoon.jpg" height="242" width="300">
+	
+	<h2>¿Qué es Final Fantasy?</h2>
+	<p class="pp"> 
+	Final Fantasy es una saga popular de 
+	juegos de RPG desarrollada por Square Enix. 
+	Puede ser la saga más vendida de todos los tiempos, además se han hecho 
+	juegos para consolas incluyendo desde las estándares hasta las portátiles, 
+	pasando por un RPG online masivo, juegos para móviles, una película de animación, 
+	hasta llegar a dos series de anime.
+	<br>
+	<br>
+	La primera entrega de la saga fue lanzada en Japón en 1987, 
+	aunque los juegos de Final Fantasy han sido lanzados posteriormente
+	para los mercados de Norteamérica, Europa y Australia, en varias videoconsolas 
+	modernas, incluyendo Nintendo Entertainment System, Super Nintendo Entertainment 
+	System, Sony PlayStation, Sony PlayStation 2, 
+	Game Boy Advance, Nintendo GameCube, PlayStation Portable, Xbox 360 y Nintendo DS.
+	<p>
+	<img class="ff" src="logo.jpg">
+	
+	<p class="ps">
+	
+	Final Fantasy cuenta historias maduras de aventuras y fantasia. Mientras que los primeros juegos, hasta el VI
+	tienen una estética medieval, a partir de la séptima entrega, la saga tornó hacia la fantasía futurista, y 
+	en recientes lanzamientos, se mezclan ambos estilos.
+	<br>
+	<br>
+	La mayoría de las historias relatan las experiencias de un grupo de héroes que deben enfrentarse a una
+	amenaza que pone en peligro a la existencia del mundo entero. Por otro lado el sistema de combate en evolucionó
+	del combate tradicional por turnos, al Active Time Battle, en el que cada personaje puede realizar acciones 
+	según se llene una barra individual de acción. En las últimas entregas, como FF7 REMAKE, se ha obtado por un
+	sistema de acción en tiempo real, en el que el jugador tiene control pleno sobre los personajes.
+	
+	</p>
+	<img class="combat" src="combate.jpg">
+	
+	<p class="pt">
+	
+	La saga Final Fantasy ha sido una de las franquicias de videojuegos más importantes, emblemáticas e influentes 
+	de toda la industria. Aunque no asento las bases del género de los RPG, si las afianzó, creando un estándar. A su vez 
+	supuso el éxito de Square Enix, que después crearía otros RPGs emblemáticos, como Chrono Trigger y Super Mario RPG,
+	y también inspiró a otros desarrolladores.
+	<br>
+	
+	<img class="chrono" src="Chrono Trigger.png">
+	
+	<br>
+	<br>
+	<br>
+	
+	
+	<div class="pienombre"><h3>Alberto Carmona González</h3></div>
+	<div class="pietitulo"><script>
+		Hora();
+	</script></div>
+	
+</body>
+
+</html>
